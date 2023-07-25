@@ -1,0 +1,58 @@
+.section1{
+	width: 100%;
+	height: 50vh;
+}
+.section2{
+	width: 25%;
+	float: left;
+	height: 30vh;
+}
+
+@media screen and (max-width: 1920px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+
+
+@media screen and (max-width: 1366px) {
+  body {
+    background-color: pink;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: green;
+    color: white;
+
+    
+  }
+  .section2{
+    	width: 50%;
+    	float: left;
+}
+     }
+
+
+@media screen and (max-width: 760px) {
+  body {
+    background-color: red;
+    color: white;
+  }
+  .section2{
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  body {
+    background-color: yellow;
+    color: white;
+  }
+  .section2{
+  	width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            JS Lecture 
+        </title>
+    </head>
+    <script>
+        function func1(nam){
+            var nam = document.getElementById("txt1").value;
+            document.getElementById("h1_text").innerHTML=nam;
+        }
+        function  func2(txt_2){
+            document.getElementById("txt_2").innerHTML=txt_2;
+
+        }
+        function x(){
+            document.bgColor="orange";
+        }
+        function y(){
+            document.bgColor="yellow";
+        }
+
+        Todaysdate=new Date();
+        document.write("Today is "+Todaysdate);
+        var myyear=Todaysdate.Date();
+        </script>
+    <body>
+        <div>
+            <h1 id="h1_text"></h1>
+            <input type="text" id="txt1">
+            <input type="submit" onclick="func1()">
+            <input type="submit" onmousedown="func1()">
+        </div>
+        <div>
+            <h1 id="txt_2"></h1>
+            <input type="text" onkeyup="func2(this.value)" id="txt2">
+        </div>
+        <div>
+            <!---button onmouseover="x()" onmouseout="y()">12131232</button---->
+        </div>
+    </body>
+</html>

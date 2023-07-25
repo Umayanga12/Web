@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS - 4</title>
+</head>
+<script type="text/javascript" src="lesson4.js"></script>
+<body>
+	<div style="background-color: green; width: 400px; height: 200px; color: white; text-align: center; display: none;" id="success"> Log In Success</div>
+	<div style="background-color: red; width: 400px; height: 200px; color: white; text-align: center; display: none;" id="error">Please Enter The Data</div>
+	<h1 id="text"> </h1>
+	<input type="text" id="txt1" onkeyup="get_text(this.value)">
+</br>
+	<label>User Name</label>
+	<input type="text" id="un">
+	<label>Password</label>
+	<input type="password" id="pw">
+	<input type="submit" value="Log in" onclick="log_validation()">
+
+</body>
+</html>

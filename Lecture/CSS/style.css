@@ -1,0 +1,44 @@
+.a1{
+	color: green;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.slider{
+	width: 100%;
+	height: auto;
+	background: red;
+	/*border-right: solid 3px black;
+	border-top-left-radius: 20px;
+	box-shadow: 10px 10px 10px blue;
+	border-radius: 50px;
+	overflow: hidden;*/
+	padding-top: 20px;
+	float: left;
+	/*margin-top: 100px;*/
+}
+.slider img{
+	width: 100%;
+	
+}
+.section2{
+	width: 25%;
+	height: 300px;
+	float: left;
+}
+.section2:hover{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.div1{
+	background:#23eb98 ;
+}
+.div2{
+	background:#eb2341;
+}
+.div3{
+	background:#ebc323;
+}
+.div4{
+	background: #2323eb;
+}
