@@ -1,0 +1,19 @@
+.app{
+	width: 50%;
+	align-items: center;
+	margin-top: 3%;
+	margin-left:25% ;
+	background-color: yellow;
+	padding: 5%;
+	border-radius: 15px;
+}
+.f-name{
+	padding-right: 0.5%;
+}
+.app label{
+	padding: 2%;
+	font-size: 20px;
+}
+.button1{
+    margin-left: 50%;
+}

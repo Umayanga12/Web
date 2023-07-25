@@ -1,0 +1,21 @@
+.search_doc{
+	margin-top: 5%;
+	background-color: yellowgreen;
+	width: 50%;
+	padding: 2%;
+	border-radius: 15px;
+	
+}
+.search_doc h5{
+
+}
+.d_name{
+	align-items: center;
+	width: 500px;
+	margin-top: 2%;
+}
+
+select{
+	width: 500px;
+	margin-top: 5%;
+}
