@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #ddd;
+        align-items: center;
+        justify-content: center;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px;
+    }
+
+    .box{
+        flex: 30%;
+        display: table;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        background-color: #8a4f0c;
+        color: #fff;
+        padding: 30px 30px;
+        border-radius: 20px;
+    }
+
+    .box img{
+        border-radius: 50%;
+        border: 2px solid #fff;
+        height: 250px;
+        width: 250px;
+    }
+
+    .box ul{
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .box ul li{
+        list-style: none;
+        margin-top: 50px;
+        font-weight: 100;
+    }
+
+    .box ul li i{
+        cursor: pointer;
+        margin: 10px;
+        font-size: 40px;
+    }
+
+    .box ul li i:hover{
+        opacity: 0.6;
+    }
+
+    .About{
+        margin-left: 20px;
+        flex: 50%;
+        display: table;
+        padding: 30px 30px;
+        font-size: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    .About h1{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .About ul li{
+        list-style: none;
+    }
+
+    .About ul{
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 1068px) {
+        .container{
+            display: table;
+        }
+
+        .box{
+            width: 100%;
+        }
+
+        .About{
+            width: 100%;
+            margin: 0;
+            margin-top: 10px;
+        }
+
+        .About h1{
+            text-align: center;
+        }
+    }
+   
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 12px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b2204;
+}
+
+.text-com {
+  max-width: 820px;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+.tcomment {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.tcomment-text-area {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.textinput {
+  float: left;
+  width: 100%;
+  min-height: 75px;
+  outline: none;
+  resize: vertical;
+  border: 1px solid grey;
+}
+.map-1{
+  max-width: 820px;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+.map1{
+  float: left;
+  width: 100%;
+  height: 120px;
+  min-height: 75px;
+  outline: none;
+  resize: vertical;
+  border: 1px solid brown;
+}
+.up-img{
+  max-width: 820px;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+.up-text{
+  font-size: 15px;
+}
+
+ form .gender-details .gender-title{
+  font-size: 15px;
+  font-weight: 500;
+ }
+ #gender{
+  font-size: 15px;
+  font-weight: 300;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #9b2204;
+   border-color: #d9d9d9;
+ }
+ #dot-4:checked ~ .category label .four,
+ #dot-5:checked ~ .category label .five,
+ #dot-6:checked ~ .category label .six{
+   background: #9b2204;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .buttona{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .buttona input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: #91630e
+ }
+ 
+ form .buttona input:hover{
+  /* transform: scale(0.99); */
+  background: #bb831a
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+}
+
+
+
+
+/*Card*/
+.groups{
+  margin: 0 auto;
+  max-width: 1330px;
+  padding: 10px;
+  height: auto;
+}
+.groups li{
+  position: relative;
+  list-style: none;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 4px 0 #0001;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+}
+.groups li:hover{
+  transform: scale(0.94);
+  box-shadow: 0 4px 14px 0 #0005;
+}
+.groups .card{
+  overflow: hidden;
+  display: block;
+}
+.groups .image-session{
+  float: left;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.groups .image-session .image{
+  width: 280px;
+  height: 220px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+.groups .meta-sission{
+  position: relative;
+  padding: 15px;display: block;
+  height: 220px;
+}
+.groups .meta-sission .head{
+  display: flex;
+  margin-bottom: 10px;
+}
+.groups .meta-sission .head .catogry{
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #91630e;
+}
+
+.groups .body .title{
+  height: 60px;overflow: hidden;
+  font-size: 24px;
+}
+.groups .body .desc{
+  height: 45px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.groups .footer .button1{
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  background: rgba(121, 68, 0, 0.87);
+  color: #fff;
+  line-height: 2.2;
+  padding: 0 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 1px 6px 0 #0004;
+  transition: all 0.3s;
+}
+.groups .foot .button1{
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+  background: rgba(121, 68, 0, 0.87);
+  color: #fff;
+  line-height: 2.2;
+  padding: 0 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 1px 6px 0 #0004;
+  transition: all 0.3s;
+}
+.groups .footer .button1:hover{
+  box-shadow: 0 3px 8px 0 #0005;
+  background: rgba(4, 121, 0, 0.87);
+  
+}
+.groups .foot .button1:hover{
+  box-shadow: 0 3px 8px 0 #0005;
+  background: rgba(121, 0, 0, 0.87);
+}
+
+@media screen and (max-width:780px){.groups{    width: 96%;}
+    .groups li:hover{    transform: none;    box-shadow: none;}
+}
+@media screen and (max-width:560px){.groups .image-session{    float: none;    margin-right: 0;}
+    .groups .image-session .image{width: 100%;}
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.custum-file-upload {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #cacaca;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+}
+
+.custum-file-upload .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .icon svg {
+  height: 20px;
+  fill: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .text span {
+  font-weight: 100;
+  font-size: 10px;
+  color: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload input {
+  display: none;
+} 

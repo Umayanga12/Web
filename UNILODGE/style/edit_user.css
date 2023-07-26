@@ -1,0 +1,85 @@
+* {box-sizing: border-box}
+
+	.sign_up{
+		width: 100%;
+        background-color: transparent;
+        position: absolute;
+	}
+
+/* Add padding to containers */
+.container {
+	width: 40%;
+	margin-left: 30%;
+  padding: 16px;
+  position: absolute;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 150px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica,"sans-serif";
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: black;
+  border: 1px solid transparent;
+  display: flex;
+  color: #ddd;
+  align-items: center;
+  font-size: 15px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+  opacity: 0.5;
+}
+
+button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
+
+button:hover svg {
+  transform: translateX(5px);
+  color: aliceblue;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+

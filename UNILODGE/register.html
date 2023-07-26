@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./style/register.css">
+  <title>Register</title>
+</head>
+<body>
+
+  <div class="container nav">
+    <nav class="navbar sticky-top navbar-expand-md bg-light navbar-light">
+       <a class="navbar-brand" href="#">
+         <img src="./images/nav_bar_logo.png" alt="navbar logo" width="15%">
+       </a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="collapsibleNavbar">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="./index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./about.html">About</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Contact</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="./login.html">Login</a>
+           </li>
+         </ul>
+       </div>
+    </nav>
+  </div>
+
+  <main>
+    <div class="container reg mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h2 class="mb-4">Register</h2>
+          <form id="register" method="post" action="./Control/create_user.php">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required name="name">
+            </div>
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" class="form-control" id="username" placeholder="Choose a username" required name="user_name">
+            </div>
+            <div class="form-group">
+              <label for="nic">NIC:</label>
+              <input type="text" class="form-control" id="nic" placeholder="Enter your NIC" required name="nic">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required name="email">
+            </div>
+            <div class="form-group">
+              <label for="mobile">Mobile Number:</label>
+              <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number" required name="pn_num">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter your password" required name="password">
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">Confirm Password:</label>
+              <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required name="com_pass">
+            </div>
+            <div class="alert alert-danger" id="errorMessage" style="display: none;"></div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-danger">Register</button>
+            </div>
+            <p>Already Have an Account? <a href="./login.html">Login</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="row"> 
+    <div class="col f-left">
+      <p>Copyright © NSBM Students</p>
+    </div>
+    <div class="col f-right">
+      <p>Brewed with ❤️ by NSBM Undergraduates for Fellow Undergraduates</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

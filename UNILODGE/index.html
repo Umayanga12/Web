@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./style/styles.css">
+  <title>Unilodge</title>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <nav class="navbar sticky-top navbar-expand-md bg-light navbar-light">
+        
+         <a class="navbar-brand" href="index.html">
+           <img src="./images/nav_bar_logo.png" alt="navbar logo" width="15%">
+         </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a class="nav-link" href="./index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./about.html">About</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Contact</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="./login.html">Login</a>
+             </li>
+           </ul>
+         </div>
+      </nav>
+    </div>
+    <div class="container tagline">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col">
+          <h1>Find your next stay...</h1>
+          <p>Search low price boarding, apartments and much more</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto mt-5">
+          <form action="./action.php">
+              <div class="row col">
+                <div class="mt-3 col">
+                  <label for="filter1">Gender</label>
+                  <select id="filter1" class="form-control">
+                    <option value="">---Select---</option>
+                    <option value="m">Male</option>
+                    <option value="f">Female</option>
+                  </select>
+                </div>
+                <div class="mt-3 col">
+                  <label for="filter2">Price</label>
+                  <select id="filter2" class="form-control">
+                    <option value="">---Select---</option>
+                    <option value="1">Less 10 000</option>
+                    <option value="2">10 000 - 25 000</option>
+                    <option value="3">25 000 +</option>
+                  </select>
+                </div>
+                <div class="mt-3 col">
+                  <div class="input">
+                    <button class="btn btn-danger btn-search" type="submit">Search</button>
+                  </div>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  </main>
+
+  <footer class="row"> 
+    <div class="col f-left">
+      <p>Copyright © NSBM Students</p>
+    </div>
+    <div class="col f-right">
+      <p>Brewed with ❤️ by NSBM Undergraduates for Fellow Undergraduates</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

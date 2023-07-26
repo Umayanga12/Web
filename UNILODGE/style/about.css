@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.parallax {
+  background-image: linear-gradient(-90deg, rgba(204, 201, 196, 0.54), rgba(121, 68, 0, 0.87)),url('../img/nsbm-campus-cover.jpg');
+
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.5rem;
+}
+h1{
+  color: #ffffff;
+}
+p{
+  color: #ffffff;
+}
+nav {
+  margin-top: 3%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.about-title{
+  font-weight: 600;
+}
+
+.about-img {
+  border-radius: 10px;
+  width: 90%;
+}
+
+iframe{
+  border-radius:10px;
+  width: 90%;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer {
+  background-color: rgba(121, 68, 0);
+  color: #ffffff;
+  padding: 2%;
+}
+
+.f-right{
+  text-align: right;
+}
