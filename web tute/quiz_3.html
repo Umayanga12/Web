@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz_3</title>
+</head>
+<body>
+
+    <style>
+        table, th, td, tr {
+            border: 1px solid black;
+        }
+    </style>
+    <table id="table">
+        <tr>
+            <th>heading1</th>
+            <th>heading2</th>
+        </tr>
+
+        <tr>
+            <td>row1cell1</td>
+            <td>row1cell2</td>
+        </tr>
+
+        <tr>
+            <td>row2cell1</td>
+            <td>row2cell2</td>
+        </tr>
+    </table>
+
+    <button id="insert">Insert Row</button>
+
+
+    <script>
+        const table = document.getElementById('table');
+        document.getElementById('insert').addEventListener('click', () => {
+            table.innerHTML += `<tr>
+            <td>new data1</td>
+            <td>new data2</td>
+        </tr>`;
+        });
+
+
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz_4</title>
+</head>
+<body>
+    <p>Drop Down List</p>
+
+    <select id="droplist">
+        <option value="">Select</option>
+        <option value="">option 1</option>
+        <option value="">option 2</option>
+        <option value="">option 3</option>
+        <option value="">option 4</option>
+  </select>
+
+  <button id="btn">Clear option</button>
+
+  <script>
+
+    const list = document.getElementById('droplist');
+    const options = list.children;
+    let cnt = options.length - 1;
+    
+    document.getElementById('btn').addEventListener('click', ()=> {
+        list.removeChild(options[cnt]);
+        cnt -= 1; 
+    });
+
+  </script>
+</body>
+</html>
